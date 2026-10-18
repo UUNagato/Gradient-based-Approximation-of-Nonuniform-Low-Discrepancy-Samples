@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+outputs/
+notebook_outputs/
+
+# Local experiments and generated recovery files
+.ipynb_checkpoints/
+/tmp*/
+/temp*/
+*.log
+*.tmp
+**/training_state.pt
+/3d/scripts/run_neural_validation.ps1
+/3d/scripts/run_brdf070200_comparison.ps1
+/3d/src/compare_brdf_checkpoints.py
+/3d/src/evaluate_external_brdf.py
